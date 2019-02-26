@@ -1,4 +1,4 @@
-package com.wakwak3125.viewpager2example
+package com.wakwak3125.viewpager2example.vp2
 
 import android.os.Bundle
 import android.view.LayoutInflater

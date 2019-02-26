@@ -1,4 +1,4 @@
-package com.wakwak3125.viewpager2example
+package com.wakwak3125.viewpager2example.vp1
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -18,6 +18,6 @@ class ViewPager1Fragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.pager.adapter = ViewPagerAdapter(childFragmentManager, 5)
+        binding.pager.adapter = ViewPager1Adapter(childFragmentManager, 5)
     }
 }

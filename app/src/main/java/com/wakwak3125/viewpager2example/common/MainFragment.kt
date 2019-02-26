@@ -1,4 +1,4 @@
-package com.wakwak3125.viewpager2example
+package com.wakwak3125.viewpager2example.common
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import com.wakwak3125.viewpager2example.R
 import com.wakwak3125.viewpager2example.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {

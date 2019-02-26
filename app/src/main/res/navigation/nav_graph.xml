@@ -5,7 +5,7 @@
     app:startDestination="@id/main_fragment">
     <fragment
         android:id="@+id/main_fragment"
-        android:name="com.wakwak3125.viewpager2example.MainFragment">
+        android:name="com.wakwak3125.viewpager2example.common.MainFragment">
         <action
             android:id="@+id/main_to_view_pager_1"
             app:destination="@id/view_pager_1" />
@@ -15,8 +15,8 @@
     </fragment>
     <fragment
         android:id="@+id/view_pager_1"
-        android:name="com.wakwak3125.viewpager2example.ViewPager1Fragment" />
+        android:name="com.wakwak3125.viewpager2example.vp1.ViewPager1Fragment" />
     <fragment
         android:id="@+id/view_pager_2"
-        android:name="com.wakwak3125.viewpager2example.ViewPager2Fragment" />
+        android:name="com.wakwak3125.viewpager2example.vp2.ViewPager2Fragment" />
 </navigation>

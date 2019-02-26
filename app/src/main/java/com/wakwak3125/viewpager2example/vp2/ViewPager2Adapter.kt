@@ -1,7 +1,8 @@
-package com.wakwak3125.viewpager2example
+package com.wakwak3125.viewpager2example.vp2
 
 import androidx.fragment.app.FragmentManager
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.wakwak3125.viewpager2example.common.ViewPagerChildFragment
 
 class ViewPager2Adapter(fragmentManager: FragmentManager, private val count: Int) : FragmentStateAdapter(fragmentManager) {
 
