@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewPager2Example</string>
+    <string name="viewpager1">ViewPager1</string>
+    <string name="viewpager2">ViewPager2</string>
+</resources>

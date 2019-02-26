@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="button1ClickListener"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="button2ClickListener"
+            type="android.view.View.OnClickListener" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClickListener="@{button1ClickListener}"
+            android:text="@string/viewpager1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClickListener="@{button2ClickListener}"
+            android:text="@string/viewpager2"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</layout>
