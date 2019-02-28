@@ -2,4 +2,6 @@
     <string name="app_name">ViewPager2Example</string>
     <string name="viewpager1">ViewPager1</string>
     <string name="viewpager2">ViewPager2</string>
+    <string name="dynamicpagechangeviewpager1">DynamicPageChangeViewPager1</string>
+    <string name="dynamicpagechangeviewpager2">DynamicPageChangeViewPager2</string>
 </resources>

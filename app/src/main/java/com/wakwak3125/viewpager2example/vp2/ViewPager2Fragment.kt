@@ -11,7 +11,9 @@ class ViewPager2Fragment : Fragment() {
 
     private lateinit var binding: FragmentViewPager2Binding
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater,
+                              container: ViewGroup?,
+                              savedInstanceState: Bundle?): View? {
         binding = FragmentViewPager2Binding.inflate(inflater, container, false)
         return binding.root
     }

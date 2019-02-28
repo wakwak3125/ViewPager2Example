@@ -10,6 +10,7 @@
         <variable
             name="button2ClickListener"
             type="android.view.View.OnClickListener" />
+
     </data>
 
     <LinearLayout
